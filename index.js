@@ -3,3 +3,15 @@
 // close up spaces between cards based on position
 // hovering over a card permanently (?) shifts that card to the center, and all other cards to the -direction of the hovered card (e.g. if card is on the left, it shifts the whole carousel right)
 // clicking on a card (a second time?) goes to the page with that portfolio item (or flips card, in full npm version)
+
+const URLS = [
+  "https://www.wga.hu/art/a/angelico/13/00adorati.jpg",
+  "https://www.wga.hu/art/a/angelico/13/00humil1.jpg",
+  "https://www.wga.hu/art/a/angelico/13/01crucif.jpg",
+  "https://www.wga.hu/art/a/angelico/13/01jerome.jpg",
+  "https://www.wga.hu/art/a/angelico/13/01reliqu.jpg",
+  "https://www.wga.hu/art/a/angelico/13/021annun.jpg",
+  "https://www.wga.hu/art/a/angelico/13/03prede2.jpg",
+  "https://www.wga.hu/art/a/angelico/13/03prede4.jpg",
+  "https://www.wga.hu/art/a/angelico/13/05humili.jpg"
+]
