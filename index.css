@@ -27,8 +27,8 @@ body, html, .container {
 
 .card {
   display: inline-block;
-  width: calc(100vw / 10);
-  margin: 0 0.25vw;
+  width: calc(100vw / 9);
+  margin: 0 -0.25vw;  /* needs to be an increasing amount for positions farther from the center */
   background-color: #000;
 }
 
