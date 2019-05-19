@@ -15,3 +15,21 @@ const URLS = [
   "https://www.wga.hu/art/a/angelico/13/03prede4.jpg",
   "https://www.wga.hu/art/a/angelico/13/05humili.jpg"
 ]
+
+
+document.addEventListener('DOMContentLoaded', event => {
+  loadImages(URLS);
+});
+
+const loadImages = (urls) => {
+  let cards = document.getElementById('cards');
+  urls.forEach((url, idx) => {
+    let card = document.createElement('span');
+    card.id = idx;
+    idx === 4 ? card.className = 'card' : (idx < 4 ? card.className = 'card left' : card.className = 'card right');
+    let image = document.createElement('img');
+    image.src = url;
+    cards.appendChild(card);
+    card.appendChild(image);
+  });
+}
