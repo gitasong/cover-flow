@@ -9,9 +9,27 @@ body, html, .container {
   width: 100vw;
   height: 100vh;
   align-items: center;
+  background-color: yellow;
 }
 
 .flow-container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   height: 60vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: green;
+}
+
+.card {
+  width: calc(100vw / 9);
+  margin: 0 0.5vw;
+  background-color: #000;
+}
+
+.card img {
+  height: inherit;
+  width: inherit;
 }
