@@ -21,6 +21,8 @@ body, html, .container {
   align-items: center;
   justify-content: space-around;
   background-color: green;
+  -webkit-perspective: 750px; /* Safari 4-8  */
+  perspective: 750px;
 }
 
 .card {
